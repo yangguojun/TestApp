@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		191D76C71BB18FEE00DC6662 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 191D76C61BB18FEE00DC6662 /* SecondViewController.m */; };
 		199D4BE61BB188E700B51D8C /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 199D4BE51BB188E700B51D8C /* FirstViewController.m */; };
 		CBC6A32A19E5752C008D60A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC6A32919E5752C008D60A1 /* main.m */; };
 		CBC6A32D19E5752C008D60A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC6A32C19E5752C008D60A1 /* AppDelegate.m */; };
@@ -28,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		191D76C51BB18FEE00DC6662 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		191D76C61BB18FEE00DC6662 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		199D4BE41BB188E700B51D8C /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		199D4BE51BB188E700B51D8C /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		CBC6A32419E5752C008D60A1 /* TestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -94,6 +97,8 @@
 				CBC6A32719E5752C008D60A1 /* Supporting Files */,
 				199D4BE41BB188E700B51D8C /* FirstViewController.h */,
 				199D4BE51BB188E700B51D8C /* FirstViewController.m */,
+				191D76C51BB18FEE00DC6662 /* SecondViewController.h */,
+				191D76C61BB18FEE00DC6662 /* SecondViewController.m */,
 			);
 			path = TestApp;
 			sourceTree = "<group>";
@@ -224,6 +229,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				191D76C71BB18FEE00DC6662 /* SecondViewController.m in Sources */,
 				CBC6A33019E5752C008D60A1 /* ViewController.m in Sources */,
 				CBC6A32D19E5752C008D60A1 /* AppDelegate.m in Sources */,
 				CBC6A32A19E5752C008D60A1 /* main.m in Sources */,
